@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="categories_Mars <= 0.5\nmse = 4754809675739648.0\nsamples = 180341\nvalue = 22801448.551"] ;
+1 [label="categories_Industrial Inspection and Monitoring <= 0.5\nmse = 236185920276998.3\nsamples = 112333\nvalue = 7710840.423"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="categories_Adaptive Sports <= 0.5\nmse = 257556421078417.9\nsamples = 99909\nvalue = 8651280.905"] ;
+1 -> 2 ;
+3 [label="categories_Consumer Products <= 0.5\nmse = 272096451252949.62\nsamples = 93331\nvalue = 9127959.788"] ;
+2 -> 3 ;
+4 [label="categories_Infrastructure and Energy <= 0.5\nmse = 277579206209488.56\nsamples = 90720\nvalue = 9384114.812"] ;
+3 -> 4 ;
+5 [label="categories_Architecture and Construction <= 0.5\nmse = 278965774879141.56\nsamples = 90079\nvalue = 9448592.261"] ;
+4 -> 5 ;
+6 [label="categories_Health and Wellness <= 0.5\nmse = 279762196688185.94\nsamples = 89712\nvalue = 9486072.202"] ;
+5 -> 6 ;
+7 [label="categories_Air Mobility <= 0.5\nmse = 280066488102162.53\nsamples = 89569\nvalue = 9501136.004"] ;
+6 -> 7 ;
+8 [label="mse = 266620128737692.4\nsamples = 69669\nvalue = 9608372.748"] ;
+7 -> 8 ;
+9 [label="mse = 326960375684955.8\nsamples = 19900\nvalue = 9125705.014"] ;
+7 -> 9 ;
+10 [label="mse = 344.168\nsamples = 143\nvalue = 50760.0"] ;
+6 -> 10 ;
+11 [label="mse = -1027.128\nsamples = 367\nvalue = 286738.0"] ;
+5 -> 11 ;
+12 [label="mse = 41385302552.755\nsamples = 641\nvalue = 323172.345"] ;
+4 -> 12 ;
+13 [label="mse = 103314985943.093\nsamples = 2611\nvalue = 227774.524"] ;
+3 -> 13 ;
+14 [label="mse = 2291310362567.987\nsamples = 6578\nvalue = 1887991.623"] ;
+2 -> 14 ;
+15 [label="mse = 26590713571.078\nsamples = 12424\nvalue = 148182.013"] ;
+1 -> 15 ;
+16 [label="mse = 1.1221039103354194e+16\nsamples = 68008\nvalue = 47727534.937"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

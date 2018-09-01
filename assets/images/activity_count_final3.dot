@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="categories_Industrial Inspection and Monitoring <= 0.5\nmse = 235737290243813.94\nsamples = 112260\nvalue = 7684768.58"] ;
+1 [label="categories_Adaptive Sports <= 0.5\nmse = 257297137738939.56\nsamples = 99743\nvalue = 8630410.483"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="categories_Consumer Products <= 0.5\nmse = 271956163412828.9\nsamples = 93126\nvalue = 9109453.807"] ;
+1 -> 2 ;
+3 [label="categories_Infrastructure and Energy <= 0.5\nmse = 277389607045070.25\nsamples = 90546\nvalue = 9362577.961"] ;
+2 -> 3 ;
+4 [label="categories_Architecture and Construction <= 0.5\nmse = 278723527038231.7\nsamples = 89931\nvalue = 9424402.299"] ;
+3 -> 4 ;
+5 [label="categories_Health and Wellness <= 0.5\nmse = 279487198707922.7\nsamples = 89580\nvalue = 9460206.275"] ;
+4 -> 5 ;
+6 [label="categories_Air Mobility <= 0.5\nmse = 279800821047507.3\nsamples = 89433\nvalue = 9475672.475"] ;
+5 -> 6 ;
+7 [label="mse = 266757767886605.88\nsamples = 69595\nvalue = 9589533.982"] ;
+6 -> 7 ;
+8 [label="mse = 325352980789206.6\nsamples = 19838\nvalue = 9076227.39"] ;
+6 -> 8 ;
+9 [label="mse = 110.15\nsamples = 147\nvalue = 50760.0"] ;
+5 -> 9 ;
+10 [label="mse = 842.952\nsamples = 351\nvalue = 286738.0"] ;
+4 -> 10 ;
+11 [label="mse = 41394729984.374\nsamples = 615\nvalue = 322050.15"] ;
+3 -> 11 ;
+12 [label="mse = 102715248066.522\nsamples = 2580\nvalue = 225973.35"] ;
+2 -> 12 ;
+13 [label="mse = 2306306911686.536\nsamples = 6617\nvalue = 1888474.762"] ;
+1 -> 13 ;
+14 [label="mse = 26673510703.384\nsamples = 12517\nvalue = 149323.963"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
